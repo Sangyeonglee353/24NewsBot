@@ -74,7 +74,8 @@ def getNewsFromRss():
 def main():
   print(f'\n\n뉴스 기사 수집을 시작합니다...')
   newsList = getNewsFromRss()
-  newsLen = len(newsList)
+  #newsLen = len(newsList) # 수집한 모든 기사
+  newsLen = 3 # 3개의 기사
   print(f'>>> {newsLen}개의 기사를 수집하였습니다')
 
   print(f'\n\n뉴스 카드 생성을 시작합니다...')
