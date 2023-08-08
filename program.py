@@ -74,7 +74,7 @@ def getNewsFromRss():
 def main():
   print(f'\n\n뉴스 기사 수집을 시작합니다...')
   newsList = getNewsFromRss()
-  newsList = newsList[:3] # 총 3개의 기사만
+  newsList = newsList[:3] # 총 3개의 기사만 보내기(모든 기사를 출력하고 싶을 경우 주석 처리!)
   newsLen = len(newsList) # 수집한 모든 기사
   print(f'>>> {newsLen}개의 기사를 수집하였습니다')
 
